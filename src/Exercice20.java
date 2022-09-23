@@ -11,7 +11,7 @@ public class Exercice20 {
         year = inpuptValue.nextInt();
 
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
-            System.out.println("Lead year");
+            System.out.println("Year is lead year");
         } else {
             System.out.println("Year isn't lead year.");
         }
